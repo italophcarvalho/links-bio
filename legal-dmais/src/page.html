@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0756A3">
+  <meta name="description" content="{{DESCRIPTION}}">
+  <meta name="robots" content="noindex, nofollow">
+  <title>{{TITLE}}</title>
+  <link rel="canonical" href="{{ORIGIN}}/">
+  <link rel="icon" type="image/svg+xml" href="{{FAVICON}}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="{{NAME}}">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:url" content="{{ORIGIN}}/">
+  <meta property="og:image" content="{{ORIGIN}}/assets/social.jpg">
+  <meta property="og:image:width" content="680">
+  <meta property="og:image:height" content="453">
+  <meta property="og:image:alt" content="Fachada do Cerimonial Infantil Legal D+ em Vila Velha">
+  <style>
+    @font-face {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 400 800;
+      font-display: swap;
+      src: url("{{FONT_URI}}") format("woff");
+    }
+{{CSS}}
+  </style>
+  <script type="application/ld+json">{{STRUCTURED_DATA}}</script>
+</head>
+<body>
+  <main class="bio-page" aria-label="Links do {{NAME}}">
+    <section class="hero" aria-label="{{NAME}}">
+      <img class="hero__image" src="{{PHOTO_URI}}"
+           alt="Fachada azul e amarela do Cerimonial Infantil Legal D+ em Santa Inês, Vila Velha"
+           width="680" height="453" fetchpriority="high" decoding="async">
+      <div class="hero__content">
+        <h1>{{SHORT_NAME}}</h1>
+        <p>{{TAGLINE}}</p>
+      </div>
+    </section>
+
+    <nav class="quick-actions" aria-label="Acessos rápidos">
+{{QUICK_ACTIONS}}
+    </nav>
+
+    <section class="links" aria-label="Planeje sua festa">
+{{CARDS}}
+    </section>
+
+    <footer class="footer">
+      <h2>Conecte-se</h2>
+      <div class="divider" aria-hidden="true"></div>
+      <nav class="footer-icons" aria-label="Redes e contato">
+{{FOOTER_ACTIONS}}
+      </nav>
+      <p class="copyright">© <span id="year">2026</span> {{NAME}}.<br>Todos os direitos reservados.</p>
+    </footer>
+  </main>
+  <script>
+    (() => {
+      const year = document.getElementById("year");
+      if (year) year.textContent = String(new Date().getFullYear());
+    })();
+  </script>
+  <template id="nunito-font-license"><pre>{{FONT_LICENSE}}</pre></template>
+</body>
+</html>
+

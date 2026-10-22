@@ -1,0 +1,61 @@
+{
+  "name": "Cerimonial Infantil Legal D+",
+  "shortName": "Legal D+",
+  "tagline": "Festas infantis em Santa Inês, Vila Velha.",
+  "title": "Legal D+ | Festas infantis em Vila Velha",
+  "description": "Conheça o Cerimonial Infantil Legal D+, em Santa Inês, Vila Velha. Consulte pacotes, disponibilidade de datas e agende uma visita com a equipe.",
+  "phone": "5527988831009",
+  "instagram": "https://www.instagram.com/cerimoniallegaldmais/",
+  "maps": "https://www.google.com/maps?cid=14167918038953408247",
+  "origin": "https://legal-dmais-bio-ilu0s5rt.italophcarvalho.chatgpt.site",
+  "address": {
+    "streetAddress": "Rua Santa Luzia, 78 - Santa Inês",
+    "addressLocality": "Vila Velha",
+    "addressRegion": "ES",
+    "postalCode": "29108-035",
+    "addressCountry": "BR"
+  },
+  "messages": {
+    "general": "Olá! Vim pelo link da bio do Legal D+ e gostaria de mais informações.",
+    "budget": "Olá! Vim pelo link da bio do Legal D+ e gostaria de consultar disponibilidade e orçamento.\nData da festa:\nQuantidade de convidados:\nTipo de comemoração:",
+    "packages": "Olá! Vim pelo link da bio do Legal D+ e gostaria de conhecer os pacotes, os serviços incluídos e as condições para realizar uma festa.",
+    "visit": "Olá! Vim pelo link da bio do Legal D+ e gostaria de combinar uma visita para conhecer o espaço."
+  },
+  "cards": [
+    {
+      "title": "Consultar data e orçamento",
+      "description": "Conte a data e a quantidade de convidados para conversar com nossa equipe.",
+      "variant": "primary",
+      "icon": "calendar",
+      "destination": "budget"
+    },
+    {
+      "title": "Conheça nossos pacotes",
+      "description": "Consulte opções, serviços incluídos e condições para sua festa.",
+      "variant": "pink",
+      "icon": "gift",
+      "destination": "packages"
+    },
+    {
+      "title": "Conheça o espaço",
+      "description": "Veja o local e encontre informações para planejar sua visita.",
+      "variant": "default",
+      "icon": "home",
+      "destination": "maps"
+    },
+    {
+      "title": "Festas realizadas",
+      "description": "Inspire-se nas comemorações compartilhadas em nosso Instagram.",
+      "variant": "purple",
+      "icon": "gallery",
+      "destination": "instagram"
+    },
+    {
+      "title": "Agende uma visita",
+      "description": "Converse com nossa equipe para combinar uma visita ao espaço.",
+      "variant": "green",
+      "icon": "calendar",
+      "destination": "visit"
+    }
+  ]
+}
